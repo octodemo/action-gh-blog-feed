@@ -34,7 +34,7 @@ jobs:
     steps:
       - name: Get GitHub Blog RSS
         id: get-github-blog-rss
-        uses: stebje/action-gh-blog-feed@v0.1.0
+        uses: octodemo/action-gh-blog-feed@v0.2.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           dry-run: false
